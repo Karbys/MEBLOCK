@@ -13,9 +13,7 @@ const Hero: React.FC = () => {
   return (
     <PageSection className="items-center justify-between gap-12 lg:flex-row">
       <div className="relative mx-auto flex max-w-sm flex-col items-center gap-6 self-stretch rounded-3xl border border-slate-200/80 bg-white/60 p-10 shadow-[0_40px_120px_-50px_rgba(15,23,42,0.45)] backdrop-blur lg:mx-0">
-        <div className="absolute -left-6 top-8 hidden h-10 w-32 rounded-full bg-gradient-to-r from-indigo-500/20 to-fuchsia-500/25 blur-2xl lg:block" aria-hidden />
-        <div className="absolute -right-6 bottom-8 hidden h-12 w-32 rounded-full bg-gradient-to-r from-sky-500/20 to-indigo-500/25 blur-3xl lg:block" aria-hidden />
-        <div className="relative flex h-32 w-32 items-center justify-center rounded-3xl bg-gradient-to-br from-indigo-500 via-violet-500 to-sky-500 p-6 shadow-xl">
+        <div className="relative flex h-32 w-32 items-center justify-center">
           <Image
             src="/logo/Meblock_Logo.png"
             alt={`${t.hero.logoTag} logo`}

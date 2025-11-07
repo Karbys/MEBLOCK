@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
     <nav className="sticky top-0 z-50 w-full border-b border-slate-200/70 bg-white/60 backdrop-blur">
       <div className="mx-auto flex h-16 w-full items-center justify-between px-6 sm:px-10">
         <Link href="/" className="group inline-flex items-center gap-3">
-          <span className="relative flex h-8 w-8 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 via-violet-500 to-sky-500 p-1.5 shadow-sm">
+          <span className="relative flex h-8 w-8 items-center justify-center">
             <Image src="/logo/Meblock_Logo.png" alt={t.navbar.brand} fill sizes="32px" className="object-contain" />
           </span>
           <span className="text-sm font-semibold tracking-tight text-slate-900">{t.navbar.brand}</span>
