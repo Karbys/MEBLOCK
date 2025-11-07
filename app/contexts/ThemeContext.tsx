@@ -31,16 +31,18 @@ const getPreferredTheme = (): Theme => {
 };
 
 export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [theme, setThemeState] = React.useState<Theme>(() => {
-    const initial = getPreferredTheme();
-    if (typeof document !== 'undefined') {
-      applyTheme(initial);
-    }
-    return initial;
-  });
+  const [theme, setThemeState] = React.useState<Theme>('light');
 
   React.useEffect(() => {
-    applyTheme(theme);
+    const preferred = getPreferredTheme();
+    setThemeState(preferred);
+    applyTheme(preferred);
+  }, []);
+
+  React.useEffect(() => {
+    if (typeof document !== 'undefined') {
+      applyTheme(theme);
+    }
     if (typeof window !== 'undefined') {
       window.localStorage.setItem(THEME_STORAGE_KEY, theme);
     }
