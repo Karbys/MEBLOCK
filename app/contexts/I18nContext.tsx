@@ -34,6 +34,12 @@ export const I18nProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }
   }, []);
 
+  React.useEffect(() => {
+    if (typeof document !== 'undefined') {
+      document.documentElement.lang = language;
+    }
+  }, [language]);
+
   const persist = React.useCallback((value: Language) => {
     if (typeof window !== 'undefined') {
       localStorage.setItem(LOCAL_STORAGE_KEY, value);
