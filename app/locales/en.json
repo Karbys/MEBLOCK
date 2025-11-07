@@ -74,6 +74,35 @@
     "description": "Schedule a walkthrough or take Meblock for a quiet spin—either way, you leave with a refined launch plan.",
     "primaryCta": "Book a walkthrough",
     "secondaryLabel": "Prefer self-serve? Start instantly"
+  },
+  "footer": {
+    "brand": {
+      "eyebrow": "MEBLOCK STUDIO",
+      "title": "Quiet systems for thoughtful brands",
+      "description": "Meblock curates modular journeys, meticulous styling, and serene handoffs so teams can design once and scale everywhere.",
+      "legal": "© 2025 Meblock Company. All rights reserved."
+    },
+    "navigation": {
+      "title": "Navigation",
+      "links": [
+        { "href": "#features", "label": "Features" },
+        { "href": "#playbook", "label": "Playbook" },
+        { "href": "#discover", "label": "Get in touch" }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "email": { "label": "Customer success", "value": "hello@meblock.co" },
+      "phone": { "label": "Mon–Fri, 9am–6pm (ICT)", "value": "+66 2 123 4567" }
+    },
+    "headquarters": {
+      "title": "Headquarters",
+      "address": {
+        "line1": "28 Soi Sukhumvit 63, Floor 12",
+        "line2": "Watthana, Bangkok 10110",
+        "country": "Thailand"
+      }
+    }
   }
 }
 

@@ -74,6 +74,35 @@
     "description": "นัดรับชม walkthrough หรือทดลองเองแบบเงียบ ๆ ก็ได้ คุณจะได้แผนเปิดตัวที่นิ่งและพร้อมใช้ทันที",
     "primaryCta": "จอง walkthrough",
     "secondaryLabel": "อยากเริ่มเองทันที? คลิกเลย"
+  },
+  "footer": {
+    "brand": {
+      "eyebrow": "MEBLOCK STUDIO",
+      "title": "ระบบที่นิ่งสำหรับแบรนด์ที่ใส่ใจ",
+      "description": "Meblock คัดสรรเส้นทางแบบโมดูลาร์ สไตล์ที่ละเอียด และการส่งต่อที่ราบรื่น ให้ทีมออกแบบครั้งเดียวแล้วขยายได้ทุกที่",
+      "legal": "© 2025 บริษัท Meblock สงวนลิขสิทธิ์"
+    },
+    "navigation": {
+      "title": "ลิงก์นำทาง",
+      "links": [
+        { "href": "#features", "label": "คุณสมบัติ" },
+        { "href": "#playbook", "label": "เพลย์บุ๊ก" },
+        { "href": "#discover", "label": "ติดต่อทีมงาน" }
+      ]
+    },
+    "contact": {
+      "title": "ช่องทางติดต่อ",
+      "email": { "label": "ทีมลูกค้าสัมพันธ์", "value": "hello@meblock.co" },
+      "phone": { "label": "จันทร์–ศุกร์ 9:00-18:00 น.", "value": "+66 2 123 4567" }
+    },
+    "headquarters": {
+      "title": "สำนักงานใหญ่",
+      "address": {
+        "line1": "เลขที่ 28 ซอยสุขุมวิท 63 ชั้น 12",
+        "line2": "เขตวัฒนา กรุงเทพฯ 10110",
+        "country": "ประเทศไทย"
+      }
+    }
   }
 }
 
