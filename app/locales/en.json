@@ -6,56 +6,74 @@
     "contact": "Contact"
   },
   "hero": {
-    "alert": "Built for teams crafting premium digital experiences",
-    "title": "Shape modular experiences with a minimalist foundation",
-    "description": "Meblock empowers you to design elegant interfaces and iterate rapidly. Craft every surface with clarity, polish, and a calm confidence that resonates.",
-    "primaryCta": "Explore Meblock",
-    "secondaryCta": "See capabilities",
+    "pill": "Modular experience platform",
+    "title": "Craft calm, premium interfaces in minutes",
+    "description": "Design serene digital journeys without wrestling with layers. Meblock keeps every screen minimal, measured, and ready for perfect handoffs.",
+    "primaryCta": "Start your canvas",
+    "secondaryCta": "Preview the system",
     "logoTag": "MEBLOCK",
-    "logoDescription": "Intuitive blocks that adapt as your ambitions grow.",
-    "highlights": [
+    "logoDescription": "Elevated blocks that flex with your brand.",
+    "metrics": [
       {
-        "label": "Modular workflows",
-        "value": "Design, build, and launch in blocks."
+        "value": "24h",
+        "label": "to launch a new journey"
       },
       {
-        "label": "Effortless edits",
-        "value": "Swap components without touching code."
+        "value": "98%",
+        "label": "handoff alignment"
       },
       {
-        "label": "Crystal analytics",
-        "value": "Understand engagement in a glance."
+        "value": "+120",
+        "label": "curated interface blueprints"
       }
     ]
   },
   "features": {
     "eyebrow": "FEATURES",
-    "title": "A refined toolkit for timeless interfaces",
-    "description": "Precisely crafted to help teams orchestrate modular experiences with clarity, while keeping every interaction calm, confident, and distinctly premium.",
+    "title": "A composed system for team-wide clarity",
+    "description": "Every layer is intentional. Assemble curated blocks, govern styling in one place, and keep production moving with confidence.",
     "items": [
       {
-        "meta": "Premium components library",
-        "title": "Composable building blocks",
-        "description": "Snap together refined UI modules, then extend them without sacrificing brand polish or performance."
+        "meta": "Pristine canvases",
+        "title": "Curated journeys",
+        "description": "Launch thoughtful flows with polished templates made to feel calm, premium, and adaptable."
       },
       {
-        "meta": "Theme overlays in minutes",
-        "title": "Adaptive theming",
-        "description": "Switch effortlessly between light, dark, or bespoke palettes to maintain harmony across every surface."
+        "meta": "Adaptive styling",
+        "title": "One-click themes",
+        "description": "Balance typography, spacing, and motion from one panel so every surface stays on-brand."
       },
       {
-        "meta": "Insightful analytics baked-in",
-        "title": "Flow intelligence",
-        "description": "Measure how every block performs, refine interactions, and launch improvements without full rebuilds."
+        "meta": "Clarity in context",
+        "title": "Measured rollouts",
+        "description": "Plan releases with shared roadmaps, clear ownership, and zero ambiguity across teams."
+      }
+    ]
+  },
+  "essentials": {
+    "eyebrow": "PLAYBOOK",
+    "title": "Build momentum with a three-step cadence",
+    "items": [
+      {
+        "title": "Compose",
+        "description": "Drag refined clusters into place and lock layout rhythm instantly."
+      },
+      {
+        "title": "Refine",
+        "description": "Dial brand hues, typography, and density without touching code."
+      },
+      {
+        "title": "Deliver",
+        "description": "Hand off shareable specs that keep design, product, and dev in sync."
       }
     ]
   },
   "cta": {
     "eyebrow": "GET STARTED",
-    "title": "Launch your modular vision with effortless finesse",
-    "description": "Build immersive product stories, preview changes in real-time, and collaborate with confidence. Meblock aligns teams and keeps momentum serene.",
-    "primaryCta": "Book a guided session",
-    "secondaryLabel": "Or start prototyping in minutes"
+    "title": "Bring a mindful aesthetic to your entire product in days",
+    "description": "Schedule a walkthrough or take Meblock for a quiet spin—either way, you leave with a refined launch plan.",
+    "primaryCta": "Book a walkthrough",
+    "secondaryLabel": "Prefer self-serve? Start instantly"
   }
 }
 

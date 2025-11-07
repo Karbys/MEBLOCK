@@ -21,14 +21,17 @@ const FeatureHighlights: React.FC = () => {
         {t.features.items.map((feature) => (
           <article
             key={feature.title}
-            className="group relative flex h-full flex-col gap-4 rounded-3xl border border-subtle bg-surface-card p-8 text-left shadow-card transition hover:border-strong"
+            className="group relative flex h-full flex-col gap-5 rounded-3xl border border-subtle bg-surface-card p-8 text-left shadow-card transition hover:-translate-y-1 hover:border-strong"
           >
-            <span className="inline-flex w-max items-center rounded-full border border-subtle bg-surface-pill px-4 py-1 text-xs font-medium tracking-wide text-secondary">
-              {feature.meta}
+            <span className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-subtle bg-surface-pill text-xs font-semibold uppercase tracking-[0.2em] text-secondary">
+              ●
             </span>
-            <h3 className="text-xl font-semibold text-primary">{feature.title}</h3>
+            <div>
+              <p className="text-xs font-medium uppercase tracking-[0.4em] text-secondary">{feature.meta}</p>
+              <h3 className="mt-3 text-xl font-semibold text-primary">{feature.title}</h3>
+            </div>
             <p className="text-sm leading-relaxed text-secondary">{feature.description}</p>
-            <div className="mt-auto h-[1px] w-16 bg-gradient-to-r from-indigo-500/60 via-sky-500/50 to-transparent transition group-hover:w-24" />
+            <div className="mt-auto h-[1px] w-16 bg-gradient-to-r from-indigo-500/40 via-sky-500/40 to-transparent transition group-hover:w-24" />
           </article>
         ))}
       </div>
