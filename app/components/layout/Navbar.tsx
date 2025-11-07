@@ -29,11 +29,21 @@ const Navbar: React.FC = () => {
   return (
     <nav className="sticky top-0 z-50 w-full border-b border-subtle bg-surface-nav backdrop-blur transition-colors duration-500">
       <div className="mx-auto flex h-16 w-full items-center justify-between px-6 sm:px-10">
-        <Link href="/" className="group inline-flex items-center gap-3">
-          <span className="relative flex h-8 w-8 items-center justify-center">
-            <Image src="/logo/Meblock_Logo.png" alt={t.navbar.brand} fill sizes="32px" className="object-contain" />
+        <Link href="/" className="group inline-flex items-center gap-3.5">
+          <span className="relative flex h-10 w-10 items-center justify-center">
+            <Image
+              src="/logo/Meblock_Logo.png"
+              alt={`${t.navbar.brand?.toUpperCase?.() ?? 'MEBLOCK'} logo`}
+              width={44}
+              height={44}
+              sizes="44px"
+              className="object-contain"
+              priority
+            />
           </span>
-          <span className="text-sm font-semibold tracking-tight text-primary">{t.navbar.brand}</span>
+          <span className="text-sm font-semibold tracking-tight text-primary uppercase">
+            {t.navbar.brand.toUpperCase()}
+          </span>
         </Link>
 
         <div className="hidden items-center gap-6 md:flex">
