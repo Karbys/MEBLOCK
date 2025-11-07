@@ -13,9 +13,8 @@ const Navbar: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
 
   const navLinks = [
-    { href: '#pillars', label: t.navbar.pillars },
-    { href: '#solutions', label: t.navbar.solutions },
-    { href: '#workflow', label: t.navbar.workflow },
+    { href: '#features', label: t.navbar.features },
+    { href: '#discover', label: t.navbar.getStarted },
   ];
 
   const handleLanguageChange = React.useCallback(
@@ -58,7 +57,7 @@ const Navbar: React.FC = () => {
             </Link>
           ))}
           <Link
-            href="#connect"
+            href="#discover"
             className="btn-primary inline-flex items-center justify-center rounded-full px-4 py-2 text-sm font-semibold shadow-sm transition"
           >
             {t.navbar.contact}
@@ -145,7 +144,7 @@ const Navbar: React.FC = () => {
               </Link>
             ))}
             <Link
-              href="#connect"
+              href="#discover"
               className="btn-primary mt-1 inline-flex items-center justify-center rounded-xl px-4 py-2 text-sm font-semibold shadow-sm"
               onClick={() => setIsOpen(false)}
             >

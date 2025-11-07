@@ -1,143 +1,79 @@
 {
   "navbar": {
     "brand": "Meblock",
-    "pillars": "Practice areas",
-    "solutions": "Solutions",
-    "workflow": "Workflow",
-    "contact": "Talk to us"
+    "features": "Features",
+    "getStarted": "Get started",
+    "contact": "Contact"
   },
   "hero": {
-    "pill": "Platform for creators, AI, and build teams",
-    "title": "Meblock aligns Content Creators, AI labs, and Software House excellence",
-    "description": "We orchestrate story, intelligence, and engineering so your next launch reaches market faster and lands with lasting impact.",
-    "primaryCta": "Partner with Meblock",
-    "secondaryCta": "See capabilities",
-    "highlightLabel": "Why Meblock",
-    "highlights": [
-      "Dedicated pods for creators, AI, and product delivery under one roof",
-      "Research-driven sprints turning ideas into pilots within weeks",
-      "Lifecycle support covering strategy, production, launch, and scale"
-    ],
-    "statNote": "Meblock synchronises creative, AI, and engineering squads so your vision becomes real faster.",
-    "statsLabel": "Impact",
-    "stats": [
+    "pill": "Modular experience platform",
+    "title": "Craft calm, premium interfaces in minutes",
+    "description": "Design serene digital journeys without wrestling with layers. Meblock keeps every screen minimal, measured, and ready for perfect handoffs.",
+    "primaryCta": "Start your canvas",
+    "secondaryCta": "Preview the system",
+    "logoTag": "MEBLOCK",
+    "logoDescription": "Elevated blocks that flex with your brand.",
+    "metrics": [
       {
-        "value": "200+",
-        "label": "creators nurtured"
+        "value": "24h",
+        "label": "to launch a new journey"
       },
       {
-        "value": "35",
-        "label": "AI products accelerated"
+        "value": "98%",
+        "label": "handoff alignment"
       },
       {
-        "value": "50+",
-        "label": "software launches each year"
+        "value": "+120",
+        "label": "curated interface blueprints"
       }
     ]
   },
-  "pillars": {
-    "eyebrow": "PLATFORM PILLARS",
-    "title": "Three practice areas working as one team",
-    "description": "Each pillar plugs into a shared operating system, letting ideas travel from strategy to production without friction.",
+  "features": {
+    "eyebrow": "FEATURES",
+    "title": "A composed system for team-wide clarity",
+    "description": "Every layer is intentional. Assemble curated blocks, govern styling in one place, and keep production moving with confidence.",
     "items": [
       {
-        "title": "Creator Studio",
-        "subtitle": "Content that builds loyal audiences",
-        "description": "We partner with creators and brands to script narratives, produce multi-format campaigns, and build community rituals that convert.",
-        "points": [
-          "Story architecture, editorial direction, and channel playbooks",
-          "Production crews for video, live, and interactive storytelling",
-          "Audience intelligence and monetisation dashboards"
-        ]
+        "meta": "Pristine canvases",
+        "title": "Curated journeys",
+        "description": "Launch thoughtful flows with polished templates made to feel calm, premium, and adaptable."
       },
       {
-        "title": "Tech AI Lab",
-        "subtitle": "Applied intelligence that ships",
-        "description": "From research to deployment, our specialists design, prototype, and harden AI solutions tailored to your product vision.",
-        "points": [
-          "Model evaluation, prompt systems, and data pipelines",
-          "Rapid prototyping with human-in-the-loop validation",
-          "MLOps, governance, and ongoing optimisation"
-        ]
+        "meta": "Adaptive styling",
+        "title": "One-click themes",
+        "description": "Balance typography, spacing, and motion from one panel so every surface stays on-brand."
       },
       {
-        "title": "Software House",
-        "subtitle": "Full-stack squads ready to scale",
-        "description": "We deliver cross-functional product teams that translate validated ideas into reliable, maintainable software fast.",
-        "points": [
-          "UX, product, and engineering working within shared rituals",
-          "Modular architectures designed for growth and integration",
-          "Quality automation, observability, and secure releases"
-        ]
+        "meta": "Clarity in context",
+        "title": "Measured rollouts",
+        "description": "Plan releases with shared roadmaps, clear ownership, and zero ambiguity across teams."
       }
     ]
   },
-  "solutions": {
-    "eyebrow": "SOLUTIONS",
-    "title": "What we create together",
-    "description": "Choose the lane that matches your ambition—each is powered by insights from every practice area.",
+  "essentials": {
+    "eyebrow": "PLAYBOOK",
+    "title": "Build momentum with a three-step cadence",
     "items": [
       {
-        "title": "Creator Growth Engines",
-        "audience": "For emerging and established storytellers",
-        "description": "Build signature content franchises, membership funnels, and branded collaborations fuelled by data.",
-        "deliverables": [
-          "Signature show formats and publishing cadence",
-          "Audience segmentation and monetisation strategy",
-          "Creator analytics cockpit with weekly insights"
-        ]
+        "title": "Compose",
+        "description": "Drag refined clusters into place and lock layout rhythm instantly."
       },
       {
-        "title": "AI Product Accelerators",
-        "audience": "For teams shaping intelligent experiences",
-        "description": "Validate, prototype, and ship AI-powered features that feel intuitive and trustworthy.",
-        "deliverables": [
-          "Discovery workshops and opportunity canvases",
-          "Interactive proof-of-concepts within 3-6 weeks",
-          "Operational handbooks for compliant deployment"
-        ]
+        "title": "Refine",
+        "description": "Dial brand hues, typography, and density without touching code."
       },
       {
-        "title": "Digital Venture Builds",
-        "audience": "For enterprises launching new plays",
-        "description": "Spin up cross-functional squads that deliver market-ready platforms with continuous iteration baked in.",
-        "deliverables": [
-          "Experience strategy and product roadmap",
-          "Design systems and engineering foundations",
-          "Launch, adoption, and growth optimisation sprints"
-        ]
-      }
-    ]
-  },
-  "workflow": {
-    "eyebrow": "ENGAGEMENT MODEL",
-    "title": "A shared rhythm for creators, scientists, and engineers",
-    "note": "Every stage stays transparent through a single operating dashboard so stakeholders move in sync.",
-    "steps": [
-      {
-        "title": "Discover & Align",
-        "description": "Immersive strategy sessions translate business goals into shared hypotheses and success metrics."
-      },
-      {
-        "title": "Co-create & Prototype",
-        "description": "Mixed-discipline squads craft narratives, models, and experience flows in parallel using rapid experimentation."
-      },
-      {
-        "title": "Build & Launch",
-        "description": "We harden production systems, automate quality, and choreograph go-to-market across creator, AI, and product streams."
-      },
-      {
-        "title": "Measure & Evolve",
-        "description": "Embedded analysts track performance, feed learnings into roadmaps, and keep momentum with optimisation sprints."
+        "title": "Deliver",
+        "description": "Hand off shareable specs that keep design, product, and dev in sync."
       }
     ]
   },
   "cta": {
-    "eyebrow": "LET'S BUILD TOGETHER",
-    "title": "Bring your next big launch to Meblock",
-    "description": "Book a session with our leads to map your content, AI, and software ambitions into a single roadmap.",
-    "primaryCta": "Schedule a strategy call",
-    "secondaryLabel": "Prefer email? hello@meblock.co"
+    "eyebrow": "GET STARTED",
+    "title": "Bring a mindful aesthetic to your entire product in days",
+    "description": "Schedule a walkthrough or take Meblock for a quiet spin—either way, you leave with a refined launch plan.",
+    "primaryCta": "Book a walkthrough",
+    "secondaryLabel": "Prefer self-serve? Start instantly"
   }
 }
 
