@@ -7,7 +7,7 @@ type PageSectionProps = {
 };
 
 const baseClassName =
-  'relative mx-auto flex w-full flex-col gap-6 px-6 py-12 transition-colors duration-500 sm:px-10 sm:py-18';
+  'relative mx-auto flex w-full flex-col gap-6 px-6 py-12 transition-colors duration-500 sm:px-10 sm:py-16';
 
 const PageSection: React.FC<PageSectionProps> = ({ id, className = '', children }) => {
   return (

@@ -9,16 +9,16 @@ const Essentials: React.FC = () => {
   const { t } = useI18n();
 
   return (
-    <PageSection id="playbook" className="gap-14 text-primary">
-      <div className="mx-auto max-w-2xl text-center">
+    <PageSection id="playbook" className="gap-10 text-primary">
+      <div className="mx-auto max-w-2xl text-center space-y-3">
         <p className="text-sm font-medium uppercase tracking-[0.4em] text-secondary">{t.essentials.eyebrow}</p>
         <h2 className="mt-4 text-3xl font-semibold tracking-tight sm:text-4xl">{t.essentials.title}</h2>
       </div>
-      <div className="grid gap-6 lg:grid-cols-3">
+      <div className="grid gap-5 lg:grid-cols-3">
         {t.essentials.items.map((item, index) => (
           <article
             key={item.title}
-            className="group flex h-full flex-col gap-4 rounded-3xl border border-subtle bg-surface-card p-7 text-left shadow-card transition hover:-translate-y-1 hover:border-strong"
+            className="group flex h-full flex-col gap-3.5 rounded-3xl border border-subtle bg-surface-card p-6 text-left shadow-card transition hover:-translate-y-1 hover:border-strong"
           >
             <span className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-subtle bg-surface-pill text-sm font-medium text-secondary">
               {(index + 1).toString().padStart(2, '0')}
