@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Nunito, Prompt } from "next/font/google";
+import { Geist, Geist_Mono, Noto_Sans_Thai } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Providers from "./providers";
@@ -14,17 +14,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const nunito = Nunito({
-  variable: "--font-nunito",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-});
-
-const prompt = Prompt({
-  variable: "--font-prompt",
+const notoSansThai = Noto_Sans_Thai({
+  variable: "--font-notosansthai",
   subsets: ["latin", "thai"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["300", "400", "500", "600", "700"],
   display: "swap",
 });
 
@@ -40,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="th">
-      <body className={`${geistSans.variable} ${geistMono.variable} ${nunito.variable} ${prompt.variable} antialiased`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${notoSansThai.variable} antialiased`}>
         <Providers>
           <Navbar />
           {children}
