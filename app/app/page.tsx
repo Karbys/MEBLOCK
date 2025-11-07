@@ -3,9 +3,10 @@
 import React from 'react';
 
 import CallToAction from '@/components/landing/CallToAction';
-import Essentials from '@/components/landing/Essentials';
-import FeatureHighlights from '@/components/landing/FeatureHighlights';
+import SolutionShowcase from '@/components/landing/Essentials';
+import PlatformPillars from '@/components/landing/FeatureHighlights';
 import Hero from '@/components/landing/Hero';
+import Workflow from '@/components/landing/Workflow';
 import { useTheme } from '@/contexts/ThemeContext';
 
 const Page = () => {
@@ -13,15 +14,19 @@ const Page = () => {
 
   const gradientClass =
     theme === 'dark'
-      ? 'bg-[radial-gradient(circle_at_top,_rgba(15,23,42,0.6),_rgba(2,6,23,0.95)_70%)]'
-      : 'bg-[radial-gradient(circle_at_top,_rgba(129,140,248,0.12),_rgba(255,255,255,0.9)_60%)]';
+      ? 'from-slate-950 via-slate-900 to-slate-950'
+      : 'from-white via-indigo-50/60 to-white';
 
   return (
     <main className="relative min-h-screen overflow-hidden text-primary transition-colors duration-500">
-      <div className={`absolute inset-x-0 top-0 -z-10 h-[680px] ${gradientClass}`} aria-hidden />
+      <div
+        className={`pointer-events-none absolute inset-x-0 top-0 -z-10 h-[760px] bg-gradient-to-b ${gradientClass}`}
+        aria-hidden
+      />
       <Hero />
-      <FeatureHighlights />
-      <Essentials />
+      <PlatformPillars />
+      <SolutionShowcase />
+      <Workflow />
       <CallToAction />
     </main>
   );
